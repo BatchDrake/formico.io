@@ -5,49 +5,141 @@
  */
 
 
-
-header {
-  padding: 10%;
-  height: 700px;
-
-
+body {
+font-family: 'Nunito', sans-serif;
+background-color: #FFDCDB;
+-webkit-font-smoothing: subpixel-antialiased;
+-moz-osx-font-smoothing: auto;
 
 }
+
+body h1, h2, p {
+  line-height: 1.6;
+}
+
+/* section {
+  padding: 2%;
+  margin-bottom: 5%;
+
+} */
+
+nav {
+  font-size: 1.5em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
 
 bg-clear {
   background:  0, 0, 0, 0%;
 }
 
 .bg-primary {
-    background-color: #A3D6FC!important;
-    padding: 20% 0 0 0;
+    background-color: #FFDCDB!important;
+    padding: 15% 0 0 0;
 }
 
-.bg-primary h1, p {
-  text-align: left;
-  width: 65%;
-  padding: 2% 0;
-}
+
 
 .bg-primary h1 {
-  font-size: 3.5em;
+  font-size: 4em;
   line-height: 1;
+  letter-spacing: 1px;
+  text-align: left;
+
+  padding: 2% 0;
+  color: #2D3E4F;
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 600;
 }
 
 
+
+/*
 .btn-primary {
   background-color: black;
   border-color: transparent;
 
+} */
+
+/* .down-button {
+  display: block;
+  position: absolute;
+  /* margin: auto 0; */
+
+}
+
+/* .arrow-down {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+} */
+
+/* .arrow-down::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 4px solid #2D3E4F;
+  border-bottom: 4px solid #2D3E4F;
+
+
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation: 3s arrow infinite ease
+  } */
+
+/* @-webkit-keyframes arrow {
+  0%, 100% {
+    top: 50px;
+  }
+  50% {
+    top: 80px;
+  }
+}
+
+@keyframes arrow {
+  0%, 100% {
+    top: 50px;
+  }
+  50% {
+    top: 80px;
+  }
+} */
+
+
+
+
+ #about {
+ padding-top: 3%!important;
+ margin-bottom: 0!important;
 }
 
 
+.project-preview {
+  padding: 5%;
+  margin-top: 10%;
+}
+
+.contact a {
+  padding: 10% 0;
+  color: #2D3E4F;
+}
+
+footer {
+  background-color: #FFDCDB!important;
+  color: #2D3E4F;
+}
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
   }
-}
-
-section {
-  padding: 150px 0;
 }
